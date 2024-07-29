@@ -265,8 +265,8 @@ const scroll = () => {
         },
         scrollTrigger: {
           trigger: title,
-          start: "top bottom",
-          end: "bottom top-=90%",
+          start: "top bottom+=40%",
+            end: "top top+=15%",
           scrub: true
         }
       }
